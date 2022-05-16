@@ -14,7 +14,7 @@ app.listen(3000, () => {
 const init = async () => {
     //const web3 = new Web3('http://localhost:9545');
 
-    const web3 = new Web3('http://54.157.98.154:8545');
+    const web3 = new Web3('http://3.231.164.87:8545');
 
     const id = await web3.eth.net.getId();
     const network = Task.networks[id];

@@ -48,7 +48,7 @@ module.exports = {
      },
 
      aws:{
-      host: "54.157.98.154", // Random IP for example purposes (do not use)
+      host: "3.231.164.87", // Random IP for example purposes (do not use)
       port: 8545,
       network_id: 1,
      }
