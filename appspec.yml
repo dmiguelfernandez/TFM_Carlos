@@ -5,6 +5,6 @@ files:
     destination: /home/ec2-user/api
 hooks:
    ApplicationStart:
-    - location: scripts/inicio.sh
+    - location: inicio.sh
       timeout: 300
       runas: ec2-user
