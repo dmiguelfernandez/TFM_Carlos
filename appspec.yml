@@ -2,4 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/prueba.js
+    destination: /home/ec2-user/api
+hooks:
+   ApplicationStart:
+    - location: scripts/inicio.sh
+      timeout: 300
+      runas: ec2-user
