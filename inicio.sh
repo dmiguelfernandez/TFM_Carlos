@@ -3,23 +3,24 @@
 
 
 #download node and npm
-npm install -g npm
-npm install -g node
+sudo apt install curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt install nodejs
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/api"
+DIR="/home/api"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
   echo "Creating ${DIR} directory"
-  mkdir ${DIR}
+  sudo mkdir ${DIR}
 fi
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ec2-user/api
+sudo chmod -R 777 /home/api
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/api
+cd /home/api
 
 #install node modules
 npm install
