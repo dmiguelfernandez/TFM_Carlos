@@ -3,9 +3,9 @@
 
 
 #download node and npm
-sudo apt install curl
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install nodejs
+#sudo apt install curl
+#curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+#sudo apt install nodejs
 
 #create our working directory if it doesnt exist
 DIR="/home/api"
