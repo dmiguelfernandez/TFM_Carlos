@@ -22,7 +22,7 @@ sudo chmod -R 777 /home/api
 cd /home/api
 
 #install node modules
-npm install
+sudo npm install
 
 #start our node app in the background
-node prueba.js
+sudo node prueba.js
