@@ -25,4 +25,4 @@ cd /home/api
 sudo npm install
 
 #start our node app in the background
-sudo node app.js 
+node prueba.js > app.out.log 2> app.err.log < /dev/null & 
