@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/api
+    destination: /home/api
 hooks:
    ApplicationStart:
     - location: inicio.sh
       timeout: 300
-      runas: ec2-user
+      runas: api
