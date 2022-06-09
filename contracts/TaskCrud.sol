@@ -9,6 +9,7 @@ contract TaskCrud {
         string descripcion;
     }
     
+    
     Data[] jsons;
 
     uint nextId; // default value 0, add public to see the value
@@ -56,6 +57,4 @@ contract TaskCrud {
     function getTasks() public view returns (Data[] memory){
         return jsons;
     }
-
-    
 }
