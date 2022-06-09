@@ -42,13 +42,13 @@ module.exports = {
     // options below to some value.
     //
      development: {
-      host: "54.236.36.119",     // Localhost (default: none)
+      host: "44.201.1.84",     // Localhost (default: none)
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "143459",       // Any network (default: none)
      },
 
      aws:{
-      host: "54.236.36.119", // Random IP for example purposes (do not use)
+      host: "44.201.1.84", // Random IP for example purposes (do not use)
       port: 8545,
       network_id: 1,
      }
